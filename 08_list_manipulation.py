@@ -44,6 +44,7 @@ def list_manipulation(lst, command, location, value=None):
     if command not in ["remove", "add"] or location not in ["beginning", "end"]:
         return None
 
+    # Take a look at solution
     if command == "add":
         if location == "beginning":
             lst.insert(0, value)

@@ -13,6 +13,8 @@ def last_element(lst):
         True
     """
 
+    # TODO: empty list evaluates to false,
+    # if lst
     if len(lst) == 0:
         return None
 
